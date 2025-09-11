@@ -1,0 +1,65 @@
+# Gerado pelo Flutter
+
+# Exclui o diretório de build
+.dart_tool/
+.flutter-plugins/
+.flutter-plugins-dependencies/
+.packages
+.vs/
+.vscode/
+
+# Build do Android
+**/android/app/build/
+**/android/app/.cxx/
+**/android/.gradle/
+**/android/build/
+**/android/gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/app/src/main/assets/flutter_assets/
+**/android/.idea/
+
+# Build do iOS
+**/ios/.symlinks/
+**/ios/Flutter/.last_build_id
+**/ios/.xcworkspace/
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/ios/.idea/
+
+# Build Web
+**/web/
+
+# Build Desktop
+**/linux/
+**/macos/
+**/windows/
+**/build/
+
+# IDEs
+.idea/
+
+# Flutter
+# ---
+# Exclui arquivos de cache e binários gerados
+build/
+*~
+*.log
+*.lock
+*.trace
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Arquivos de chave e credenciais
+# ---
+# Nunca faça commit de arquivos com informações sensíveis
+**/lib/firebase_options.dart
+**/lib/config/
+**/lib/secrets/
+
+# Outros arquivos temporários ou de configuração local
+# ---
+# Exclui arquivos de linter, testes, etc.
+.ds_store
+.iml
