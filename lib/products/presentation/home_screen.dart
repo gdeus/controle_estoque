@@ -1,4 +1,4 @@
-import 'package:controle_estoque/products/presentation/produtos_screen.dart';
+import 'package:controle_estoque/products/presentation/products_screens/produtos_screen.dart';
 import 'package:controle_estoque/products/presentation/relatorios_screen.dart';
 import 'package:controle_estoque/products/presentation/vendas_screen.dart';
 import 'package:flutter/material.dart';
